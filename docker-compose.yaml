@@ -72,8 +72,6 @@ volumes:
     external: true
   shiori-go-mod-cache:
     external: true
-  shiori-nginx:
-    external: true
   shiori-postgresql:
     external: true
   shiori-mariadb:
