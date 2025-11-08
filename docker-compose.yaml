@@ -9,7 +9,7 @@ services:
       - "--log-level"
       - "debug"
     ports:
-      - "8401:8401"
+      - "8401:8080"
     volumes:
       - shiori-srv:/srv/shiori
       - shiori-src:/src/shiori
@@ -27,7 +27,7 @@ services:
   nginx:
     image: nginx:alpine
     ports:
-      - "401:401"
+      - "401:8081"
     volumes:
       - shiori-nginx:/etc/nginx
     depends_on:
