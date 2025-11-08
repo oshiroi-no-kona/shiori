@@ -9,7 +9,7 @@ services:
       - "--log-level"
       - "debug"
     ports:
-      - "8080:8080"
+      - "8401:8401"
     volumes:
       - shiori-srv:/srv/shiori
       - shiori-src:/src/shiori
